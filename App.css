@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f0f0f0;
+}
+
+.App-header {
+  background: linear-gradient(135deg, #6b73ff, #000dff);
+  color: white;
+  padding: 100px 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0.2em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.cta-button {
+  background-color: #ff4081;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #ff79b0;
+}
+
+.services {
+  padding: 50px;
+  background-color: white;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+}
+
+.card i {
+  font-size: 3em;
+  color: #6b73ff;
+  margin-bottom: 15px;
+}
+
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 50px;
+}
+
+.testimonial {
+  font-style: italic;
+  margin: 20px;
+  padding: 15px;
+  border-left: 4px solid #6b73ff;
+  background-color: white;
+  display: inline-block;
+  text-align: left;
+}
+
+span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact {
+  padding: 50px;
+  background: #6b73ff;
+  color: white;
+}
+
+footer {
+  background: #000dff;
+  color: white;
+  padding: 10px;
+  font-size: 0.9em;
+}
